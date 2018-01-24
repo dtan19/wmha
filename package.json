@@ -1,0 +1,41 @@
+{
+  "name": "wmha",
+  "version": "1.0.0",
+  "description": "Simple Web app that allows login and connection to a simple DB",
+  "main": "app.js",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filmsterdavid/wmha.git"
+  },
+  "author": "David Tanner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filmsterdavid/wmha/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "devicons": "^1.8.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "mongodb": "^3.0.1",
+    "popper": "^1.0.1"
+  },
+  "engines": {
+    "node": "9.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  }
+}
